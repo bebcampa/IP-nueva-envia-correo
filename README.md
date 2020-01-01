@@ -1,4 +1,4 @@
-# IP-nueva-envia-correo
+# IP-nueva-envia-correo JAVA
 Comprueba la IP del router, si esta cambia enviara un correo electrónico.
 El funcionamiento es el siguente:
 Se guarda en un fichero la IP del router, si el fichero no existe se creará y enviara el mensaje. Para las siguientes comprobaciones, se usa el fichero como referencia, si el valor del fichero coincide con la IP actual del router la aplicación no hará nada, en caso de que no coinciden la aplicación abre una sesión en la cuenta del correo electrónico, se envía el mensaje y se actualiza el fichero.
